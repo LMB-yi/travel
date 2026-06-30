@@ -1,5 +1,6 @@
 // src/router/index.js
-import { createRouter, createWebHistory } from 'vue-router'
+// import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import { useAuthStore } from '@/stores/auth.store'
 
 // 导入视图组件
