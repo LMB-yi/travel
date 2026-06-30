@@ -1,0 +1,61 @@
+/* CSS变量定义 - 主题颜色 */
+:root {
+  /* 主色调 - 旅游主题 */
+  --primary-color: #409eff;
+  --primary-light: #ecf5ff;
+  --primary-dark: #337ecc;
+  
+  /* 辅助色 */
+  --success-color: #67c23a;
+  --warning-color: #e6a23c;
+  --danger-color: #f56c6c;
+  --info-color: #909399;
+  
+  /* 中性色 */
+  --white: #ffffff;
+  --black: #000000;
+  --gray-1: #f5f7fa;
+  --gray-2: #e4e7ed;
+  --gray-3: #d3d4d6;
+  --gray-4: #c0c4cc;
+  --gray-5: #606266;
+  
+  /* 文字颜色 */
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --text-placeholder: #c0c4cc;
+  
+  /* 边框颜色 */
+  --border-color: #dcdfe6;
+  --border-light: #e4e7ed;
+  --border-lighter: #ebeef5;
+  
+  /* 背景颜色 */
+  --bg-color: #f5f7fa;
+  --bg-page: #f2f6fc;
+  --bg-card: #ffffff;
+  
+  /* 阴影 */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+  /* 边框圆角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  
+  /* 间距 */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  
+  /* 过渡动画 */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+  --transition-slow: 0.5s;
+}
