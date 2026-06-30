@@ -93,10 +93,14 @@ const routes = [
     component: Admin,
     meta: { requiresAuth: false, requiresAdmin: false }, // 已注释掉，允许未登录用户访问
   },
+  // {
+  //   path: '/:pathMatch(.*)*',
+  //   name: 'not-found',
+  //   component: NotFound,
+  // },
   {
     path: '/:pathMatch(.*)*',
-    name: 'not-found',
-    component: NotFound,
+    redirect: '/',  // 所有未匹配的路径直接重定向到首页
   },
 ]
 
